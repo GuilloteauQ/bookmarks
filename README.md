@@ -5,7 +5,7 @@ Simple bookmark script in command line
 ## Install
 
 ```sh
-nix-env -i -f https://github.com/GuilloteauQ/bookmarks/tarball/master
+nix-env -i -f https://github.com/GuilloteauQ/bookmarks/tarball/main
 ```
 ## Save Bookmark
 
