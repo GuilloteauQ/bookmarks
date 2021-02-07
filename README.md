@@ -1,5 +1,6 @@
 # bookmarks
 Simple bookmark script in command line
+(mainly for my personal use...)
 
 ## Install
 
