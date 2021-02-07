@@ -1,6 +1,6 @@
 let
   pkgs = import <nixpkgs> {};
-  bookmark_file_path = "/home/quentin/dev/bookmarks/bookmarks";
+  bookmark_file_path = "$HOME/.bookmarks";
   inherit (pkgs) stdenv;
 
   bookmark_open = pkgs.writeScriptBin "bo" ''
