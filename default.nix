@@ -29,7 +29,7 @@ then
         cd $result
         ;;
         *)
-        firefox $result
+        ${pkgs.xdg_utils}/bin/xdg-open $result
         ;;
     esac
 fi
@@ -73,6 +73,7 @@ pkgs.symlinkJoin {
 	bookmark_open
 	bookmark_rm
 	pkgs.fzf
+    pkgs.xdg_utils
   ];
 }
 
